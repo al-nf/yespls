@@ -112,7 +112,7 @@
                             {#if idx < level.modifiers[0]?.values.length - 1}{"/ "}{/if}
                           {/each}
                         {/if}
-                        {#if levelIndex < effect.leveling.length - 1}{"  ||  "}{/if} <!-- Correctly add " || " with space -->
+                        {#if levelIndex < effect.leveling.length}{"  ||  "}{/if} <!-- Correctly add " || " with space -->
                       {/each}
                     </span>
                   {/if}
